@@ -1,0 +1,98 @@
+body
+{
+background-color: none;
+}
+
+h1
+{
+    font-size: 4em;
+    border-bottom: 10px solid rgb(255,238, 0);
+    width: auto;
+}
+
+h2
+{
+    font-size: 2em;
+    margin: 0cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span
+{
+    color: rgb(255, 238, 0);
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(32, 32, 117, 0.863);
+    color: rgb(255, 255, 255);
+}
+
+h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 1.6em;
+color: rgb(255, 238, 0);
+}
+
+.formation, .experiences
+{
+    font-weight: bold;
+}
+
+section
+{
+    display: flex;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+aside
+{
+    flex: 1;
+    position: relative;
+    padding: 20px;
+    background-color: rgba(32, 32, 117, 0.863);
+font-size: 1.5em;
+margin-top: 1cm;
+color: white;
+text-align: center;
+}
+article
+{
+    margin-right: 20px;
+    margin-top: 1cm;
+flex: 2;
+background-color: rgb(255, 255, 255);
+border-radius: 25px;
+}
+
+h5
+{
+    text-align: center;
+    color: rgb(255, 238, 0);
+    border-top: 5px solid white;
+    padding-top: 0.5cm;
+}
+aside a, aside a:visited
+{
+    color: white;
+}
+aside a:hover
+{
+    font-weight: bolder;
+}
+
+.photo
+{
+    text-align: right;
+}
+.bas
+{
+    text-align: center;
+    font-size: small;
+}
